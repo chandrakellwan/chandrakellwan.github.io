@@ -34,7 +34,10 @@ text-decoration: none;
   background: #4aaaa5;
 }
 
+
 .jumplinks {
+  
+  background-color: yellow;
   font-size: 18px;
   width: 270px;
   background: #FFFFFF;
@@ -44,6 +47,10 @@ text-decoration: none;
   float: right;
   clear: both;
 }
+
+span: hover {
+    background-color: yellow;
+  }
 
 #AboutLink {
   height: 50px;
@@ -78,6 +85,7 @@ h1 {
   margin-top: 5px;
   margin-bottom: 20px;
   font-size: 36px;
+  font-style: bold;
   color: #4aaaa5;
   line-height: 45px;
 }
@@ -98,7 +106,7 @@ p {
   width: 700px;
   height: 400px;
   padding: 20px;
-  margin-left: 170px;
+  margin-left: 180px;
   margin-right: 250px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -108,7 +116,7 @@ p {
 
 #photo {
   position: relative;
-  top: -230px;
+  top: -210px;
   padding-right:20px;
   padding-top:10px;
   padding-bottom:10px;
@@ -130,7 +138,7 @@ p {
 
   position: absolute;
   font-style: bold;
-  right: 190px;
+  right: 180px;
   top: 135px;
   width: 220px;
   height: 120px;
@@ -139,6 +147,11 @@ p {
   color: #4aaaa5;
   background: #FFFFFF;
 }
+
+a:hover {
+  color: #4aaaa5;
+}
+
 
 
 .copyright {
